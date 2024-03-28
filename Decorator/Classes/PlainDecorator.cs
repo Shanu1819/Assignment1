@@ -10,7 +10,7 @@ namespace Decorator.Classes
         {
             // Prefixing the text of the base class with some chosen text
             string baseText = base.GetText();
-            return "I am ading some preifix in this. " + baseText;
+            return "Introduction:" + baseText;
         }
     }
 }

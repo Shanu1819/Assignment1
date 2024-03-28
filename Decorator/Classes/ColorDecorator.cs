@@ -10,7 +10,7 @@ namespace   Decorator.Classes
 
         public override string GetText()
         {
-            // Getting the text from the base class and adding color formatting
+            // Getting the text from the base class 
             string baseText = base.GetText();
             return $"\u001b[31m{baseText}\u001b[0m"; // Question requirements
             

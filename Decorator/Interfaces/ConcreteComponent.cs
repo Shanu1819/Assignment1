@@ -5,7 +5,7 @@ namespace Decorator.Interfaces
         public string GetText()
         {
             
-            return "This is the text from ConcreteComponent.";
+            return "Hi, This is Shanu Singh. I am a student of Cambrian College studying MAPD program.";
         }
     }
 }
